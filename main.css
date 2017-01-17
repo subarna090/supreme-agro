@@ -1,0 +1,58 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image: url(images/back1.jpg);
+}
+#topbar{
+    background:#249648;
+    color:aliceblue;
+    text-align: right;
+    padding:5px;
+    font-size: 14px;
+}
+
+#topbar p{
+    display:inline;
+    margin:5px;      
+}
+#top{
+    margin-right: 60px;
+}
+
+#logo{
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+#hot{
+    margin-top:25px;
+}
+
+#social{
+    font-size: 22px;
+    margin-top:25px;
+}
+
+#social .fa-facebook-square{
+    color:#3B5998;
+}
+
+#social .fa-twitter-square{
+    color:#55ACEE;
+}
+#social .fa-google-plus-square{
+    color:#CE3C2D;
+}
+
+#social .fa-linkedin-square{
+    color:#0083BE;
+}
+
+@media (max-width: 767px) {
+      #social{
+              text-align: center;
+       } 
+    #hot{
+        text-align: center;
+    }
+    }
